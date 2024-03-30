@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/index.css">
+
+    <!-- Importing the font style from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- ------------------------------------ -->
+
+
+    <title>Document</title>
+</head>
+<!-- Here i'm applying the font family to all text inside the document -->
+<style>
+    * {
+        font-family: "Plus Jakarta Sans", sans-serif; 
+    }
+
+    body {
+        background-color: hsl(210, 60%, 98%);
+        
+    }
+</style>
+<!---------------> 
+<body>
+    <div class="container w-[500px] max-sm:w-full max-sm:mt-0   mx-auto my-6 bg-white p-[25px] rounded-lg shadow-xl">
+
+        <div class="header flex justify-between items-center">
+            <h1 class="text-[18px] font-bold">
+                Notifications
+                <span class="p-1 px-2 ml-1 bg-vdark-blue text-white font-semibold rounded-md text-[12px] "> 3 </span>
+            </h1>
+
+            <span class="text-[14px] hover:font-semibold cursor-pointer">
+                Mark all as read
+            </span>
+        </div>
+
+        <!-- Notifications List -->
+        <div class="mt-[20px] flex flex-col gap-2">
+ 
+            <!-- Notification 1 -->
+            <div class="p-[15px] flex gap-4 bg-light-blue1 rounded-md">
+                <img class="w-[40px] self-start" src="./assets/images/avatar-mark-webber.webp" alt="">
+
+                <div class="texts flex flex-wrap flex-col">
+                    <span class="text-[13px] text-dgray-blue gap-1 items-center">
+                        <b class="font-bold cursor-pointer text-black">Mark Webber</b>
+                        reacted to your recent post <b class="hover:text-vdark-blue  cursor-pointer">  My first tournament today! </b> 
+                        
+                        <b class="inline-block ml-1 w-[6px] h-[6px] bg-red-500 rounded-full"></b>
+
+                    </span>
+                    <span class="text-[12px] text-dgray-blue"> 1m ago</span>
+                </div>
+            </div>
+
+            <!-- Notification 2 -->
+            <div class="p-[15px] flex gap-4 bg-light-blue1 rounded-md">
+                <img class="w-[40px]" src="./assets/images/avatar-angela-gray.webp" alt="">
+
+                <div class="texts flex flex-col">
+                    <span class="text-[13px] text-dgray-blue flex gap-1 items-center">
+                        <span class="font-bold cursor-pointer text-black">Angela Gray</span>
+                         followed you 
+                        
+                        <span class="inline-block ml-1 w-[6px] h-[6px] bg-red-500 rounded-full"></span>
+
+                    </span>
+                    <span class="text-[12px] text-dgray-blue"> 5m ago</span>
+                </div>
+            </div>
+
+            <!-- Notification 3 -->
+            <div class="p-[15px] flex gap-4 bg-light-blue1 rounded-md">
+                <img class="w-[40px]" src="./assets/images/avatar-jacob-thompson.webp" alt="">
+
+                <div class="texts flex flex-col">
+                    <span class="text-[13px] text-dgray-blue flex gap-1 items-center">
+                        <span class="font-bold cursor-pointer text-black">Jacob Thompson</span>
+                         has joined your group <b class="hover:text-vdark-blue  cursor-pointer"> Chess Club </b> 
+                        
+                        <span class="inline-block ml-1 w-[6px] h-[6px] bg-red-500 rounded-full"></span>
+
+                    </span>
+                    <span class="text-[12px] text-dgray-blue"> 1 day ago</span>
+                </div>
+            </div>
+
+            <!-- Notification 4 -->
+            <div class="p-[15px]  flex gap-4  rounded-md">
+                <img class="w-[40px] self-start" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+
+                <div class="texts gap-1 flex flex-col">
+                    <span class="text-[13px] text-dgray-blue flex gap-1 items-center">
+                        <span class="font-bold cursor-pointer text-black">Rizky Hasanuddin</span>
+                        sent you a private message. 
+                    </span>
+                    <span class="text-[12px] text-dgray-blue"> 5 days ago</span>
+                    <p class="text-[13px] cursor-pointer hover:border-0 hover:bg-light-blue1 p-[10px] border-[1px] rounded-md border-light-blue2 text-dgray-blue ">
+                        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                        I'm already having lots of fun and improving my game.
+                    </p>
+                </div>
+            </div>
+
+                <!-- Notification 5 -->
+                <div class="p-[15px] flex gap-4 hover:bg-light-blue1 rounded-md">
+                    <img class="w-[40px]" src="./assets/images/avatar-kimberly-smith.webp" alt="">
+    
+                    <div class="texts flex flex-col">
+                        <span class="text-[13px] text-dgray-blue flex gap-1 items-center">
+                            <span class="font-bold cursor-pointer text-black">Kimberly Smith</span>
+                             Commented on your picture
+                            
+                            <span class="inline-block ml-1 w-[6px] h-[6px] bg-red-500 rounded-full"></span>
+    
+                        </span>
+                        <span class="text-[12px] text-dgray-blue"> 1 week ago</span>
+                    </div>
+                    <img class="w-[40px] ml-auto cursor-pointer" src="./assets/images/image-chess.webp" alt="">
+                </div>
+
+                 <!-- Notification 7 -->
+            <div class="p-[15px] flex hover:bg-light-blue1 gap-4 rounded-md">
+                <img class="w-[40px] self-start" src="./assets/images/avatar-nathan-peterson.webp" alt="">
+
+                <div class="texts flex flex-col">
+                    <span class="text-[13px] text-dgray-blue inline-block gap-1 items-center">
+                        <b class="font-bold inline-block cursor-pointer text-black">Nathan Peterson</b>
+                        reacted to your recent post <b class="hover:text-vdark-blue  cursor-pointer">  5 end-game strategies to increase your win rate </b>
+                        
+                        
+
+                    </span>
+                    <span class="text-[12px] mt-1 text-dgray-blue"> 2 weeks ago</span>
+                </div>
+            </div>
+
+            <!-- Notification 8 -->
+            <div class="p-[15px] hover:bg-light-blue1 flex gap-4  rounded-md">
+                <img class="w-[40px]" src="./assets/images/avatar-anna-kim.webp" alt="">
+
+                <div class="texts flex flex-col">
+                    <span class="text-[13px] text-dgray-blue flex gap-1 items-center">
+                        <span class="font-bold cursor-pointer text-black">Anna Kim</span>
+                         left the group <b class="hover:text-vdark-blue  cursor-pointer"> Chess Club </b> 
+                        
+                        <b class="inline-block ml-1 w-[6px] h-[6px] bg-red-500 rounded-full"></b>
+
+                    </span>
+                    <span class="text-[12px] text-dgray-blue mt-1"> 2 weeks ago</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
